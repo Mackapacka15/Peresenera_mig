@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Times New Roman", Times, serif;
+}
+* + * {
+  margin: 12px;
+}
+nav li {
+  list-style: none;
+  display: inline-block;
+}
+nav a {
+  color: white;
+}
+body {
+  margin: 10px;
+  background-image: url(Bilder/Background2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+header {
+  background-image: url(Bilder/Header2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+a {
+  text-decoration: none;
+}
+#Intressen {
+  width: 50%;
+  margin: auto;
+  color: black;
+  background-color: rgba(255, 255, 255, 0.349);
+}
