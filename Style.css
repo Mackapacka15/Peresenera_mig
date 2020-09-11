@@ -46,8 +46,8 @@ footer {
   background-color: black;
   color: white;
   text-align: center;
-  padding: 5px;
-  margin: 12px;
+  padding: 15px;
+  margin: 15px;
 }
 footer ul {
   text-align: left;
@@ -55,4 +55,15 @@ footer ul {
 }
 a {
   color: white;
+}
+
+footer ul {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+footer ul li {
+  padding: 8px;
+  margin: 8px;
 }
