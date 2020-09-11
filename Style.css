@@ -28,20 +28,35 @@ header {
 a {
   text-decoration: none;
 }
+article ul {
+  list-style-type: none;
+}
 #Intressen {
   width: 50%;
   margin: auto;
   color: black;
   background-color: rgba(255, 255, 255, 0.349);
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
 }
+.Innebandy {
+  order: 1;
+}
+.Fotboll {
+  order: -5;
+}
+
 p {
   width: 50%;
   margin: auto;
   padding: 10px;
 }
-img {
-  width: 75%;
+
+a:hover {
+  background: rgba(135, 207, 235, 0.432);
 }
+
 footer {
   background-color: black;
   color: white;
