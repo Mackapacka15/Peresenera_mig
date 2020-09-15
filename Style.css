@@ -32,19 +32,72 @@ article ul {
   list-style-type: none;
 }
 #Intressen {
-  width: 50%;
+  width: 75%;
   margin: auto;
   color: black;
   background-color: rgba(255, 255, 255, 0.349);
+}
+
+#Intressen ul {
   display: flex;
-  justify-content: flex-start;
   flex-wrap: wrap;
+  justify-content: start;
+  flex-direction: row;
 }
-.Innebandy {
+
+.innebandy {
   order: 1;
+  width: 50%;
 }
-.Fotboll {
-  order: -5;
+.fotboll {
+  order: 2;
+  width: 50%;
+}
+.innebandy_bild {
+  order: 3;
+  width: 50%;
+}
+.fotboll_bild {
+  order: 4;
+  width: 50%;
+}
+.hockey {
+  order: 5;
+  width: 50%;
+}
+.tränare {
+  order: 6;
+  width: 50%;
+}
+.hockey_bild {
+  order: 7;
+  width: 50%;
+}
+.Janne {
+  order: 8;
+  width: 50%;
+}
+#Dad_jokes {
+  background-color: rgba(255, 255, 255, 0.349);
+  width: 75%;
+  margin: auto;
+  color: black;
+}
+#Dad_jokes p {
+  width: 100%;
+}
+
+#Dad_jokes ul {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+#Dad_jokes li {
+  background-color: rgba(252, 184, 36, 0.562);
+}
+#Dad_jokes a {
+  color: black;
 }
 
 p {
@@ -64,12 +117,12 @@ footer {
   padding: 15px;
   margin: 15px;
 }
+footer a {
+  color: white;
+}
 footer ul {
   text-align: left;
   list-style: none;
-}
-a {
-  color: white;
 }
 
 footer ul {
@@ -81,4 +134,13 @@ footer ul {
 footer ul li {
   padding: 8px;
   margin: 8px;
+}
+.half_width {
+  width: 50%;
+}
+.sk1 {
+  width: 50%;
+}
+.sk2 {
+  width: 50%;
 }
