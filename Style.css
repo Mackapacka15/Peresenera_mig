@@ -3,14 +3,6 @@
   margin: 0;
   font-family: "Times New Roman", Times, serif;
 }
-
-nav li {
-  list-style: none;
-  display: inline-block;
-}
-nav a {
-  color: white;
-}
 body {
   margin: 12px;
   background-image: url(Bilder/Background2.jpg);
@@ -28,6 +20,14 @@ header {
 a {
   text-decoration: none;
 }
+nav li {
+  list-style: none;
+  display: inline-block;
+}
+nav a {
+  color: white;
+}
+
 article ul {
   list-style-type: none;
 }
@@ -78,17 +78,17 @@ article ul {
   width: 50%;
 }
 #Dad_jokes {
-  background-color: rgba(255, 255, 255, 0.349);
   width: 75%;
   margin: auto;
   color: black;
+  background-color: rgba(255, 255, 255, 0.349);
 }
 #Dad_jokes p {
   width: 100%;
 }
 
 #Dad_jokes ul {
-  text-align: center;
+  justify-content: center;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -131,16 +131,14 @@ footer ul {
   flex-wrap: wrap;
 }
 
-footer ul li {
-  padding: 8px;
-  margin: 8px;
-}
 .half_width {
-  width: 50%;
+  margin: 5px;
+  width: 45%;
+  border: solid black 1px;
 }
 .sk1 {
-  width: 50%;
+  color: rgba(252, 184, 36, 0.30);
 }
-.sk2 {
-  width: 50%;
+.sk1:hover {
+  color: black;
 }
